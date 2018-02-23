@@ -1,9 +1,9 @@
 # Udacity
 
-##Introduction
+## Introduction
 This Movie Website project helps you see my favorite movies and plays the trailers if you want to watch
 
-##Installation
+## Installation
 
 **To begin with you should have python installed on your machine:**
 1. You can download python for windows /MAC using links below
@@ -18,5 +18,9 @@ git clone https://github.com/Bugakki/Udacity.git
 5. CLick on Run -> Run Module
 
 
-##Supported Python Versions
+## Supported Python Versions
 Python 2.7
+
+
+## Author
+Akanksha
