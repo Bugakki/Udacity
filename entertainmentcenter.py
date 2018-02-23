@@ -4,19 +4,17 @@ import fresh_tomatoes
 ShawshankRedemption = media.Movie("Shawshank Redemption",
                         "Two imprisoned men bond over a number of years, finding solace and eventual redemption through acts of common decency.",
                         "https://images-na.ssl-images-amazon.com/images/I/519NBNHX5BL._SY445_.jpg",
-                        "https://www.youtube.com/watch?v=NmzuHjWmXOc")
+                        "https://www.youtube.com/watch?v=6hB3S9bIaco")
 
 DarkKnight = media.Movie("The Dark Knight",
                          "When the menace known as the Joker emerges from his mysterious past, he wreaks havoc and chaos on the people of Gotham, the Dark Knight must accept one of the greatest psychological and physical tests of his ability to fight injustice.",
                          "https://upload.wikimedia.org/wikipedia/en/8/8a/Dark_Knight.jpg",
-                         "https://www.youtube.com/watch?v=EXeTwQWrcwY")
-
-#ShawshankRedemption.show_trailer()
+                         "https://www.youtube.com/watch?v=_PZpmTj1Q8Q")
 
 Inception = media.Movie("Inception",
                         "A thief, who steals corporate secrets through the use of dream-sharing technology, is given the inverse task of planting an idea into the mind of a CEO.",
                         "https://images-na.ssl-images-amazon.com/images/M/MV5BMjAxMzY3NjcxNF5BMl5BanBnXkFtZTcwNTI5OTM0Mw@@._V1_UX182_CR0,0,182,268_AL_.jpg",
-                        "https://www.youtube.com/watch?v=YoHD9XEInc0")
+                        "https://www.youtube.com/watch?v=d3A3-zSOBT4")
 
 
 HotelTransylvania = media.Movie("Hotel Transylvania",
@@ -34,8 +32,7 @@ ShutterIsland = media.Movie("Hotel Transylvania",
 LORD = media.Movie("The Lord of the Rings",
                                 "A meek Hobbit from the Shire and eight companions set out on a journey to destroy the powerful One Ring and save Middle-earth from the Dark Lord Sauron.",
                                 "https://images-na.ssl-images-amazon.com/images/M/MV5BN2EyZjM3NzUtNWUzMi00MTgxLWI0NTctMzY4M2VlOTdjZWRiXkEyXkFqcGdeQXVyNDUzOTQ5MjY@._V1_UX182_CR0,0,182,268_AL_.jpg",
-                                "https://www.youtube.com/watch?v=V75dMMIW2B4")
+                                "https://www.youtube.com/watch?v=cvCktPUwkW0")
 
 movies = [ShawshankRedemption,DarkKnight,Inception,HotelTransylvania,ShutterIsland,LORD]
 fresh_tomatoes.open_movies_page(movies)
-print(media.Movie.__doc__)
